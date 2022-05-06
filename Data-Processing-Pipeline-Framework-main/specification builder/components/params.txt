@@ -1,0 +1,42 @@
+{"column_name":str,"new_column_name":int}
+{"column_name":str}
+{"column_name":str}
+{"column_name":str}
+{"column_name":str, "value":int}
+{"column_name":str, "value":int}
+{"column_name":str, "value":int}
+{"column_name1":str, "column_name2":str, "inplace":bool, "output_column":str}
+{"column_name1":str, "column_name2":str, "inplace":bool, "output_column":str}
+{"column_name1":str, "column_name2":str, "inplace":bool, "output_column":str}
+{"column_name":str, "output_column":str}
+{"column_name1":str, "column_name2":str, "output_column":str}
+{"column_name": str, "date": datetime}
+{"column_name": str, "split_by": str}
+{"table1":str, "table2":str, "left_on":str, "right_on":str, "type":str}
+{"column_name": str, "comparator": str, "value": int}
+{"column_name": str,"less_than_equal_to (optional)":int, "greater_than_equal_to (optional)":int, "less_than (optional)":int, "greater_than (optional)":int, "equal_to (optional)":int}
+{"column_name": str, "comparator": str, "value": int}
+{"column_name": str, "regex": str}
+{"output_table":str, "sql_file":str}
+{"column_name": str, "format": str}
+{"python_source":str,"path":str}
+{"python_source":str,"path":str}
+{"python_source":str,"path":str}
+{"column_name":str}
+{"table_name": str, "column_name": str, "variable": str}
+{"table_name": str, "column_name": str, "variable": str}
+{"table_name": str, "column_name": str, "variable": str}
+{"column_name":str}
+{"column_name":str}
+{"column_name":str}
+{"column_name":str}
+{"column_name":str}
+{"column_name":str}
+{"column_name":str}
+{}
+{"column_name": str, "regex": str}
+{"input_tables":list}
+{"column_name":str}
+{"column_name": str,"default_value (optional)":str}
+{"column_name":str}
+{"column_name":str}

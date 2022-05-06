@@ -1,0 +1,45 @@
+<specification xmlns="pipeline" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <inputs>
+        <input type="sql">
+            <host>localhost</host>
+            <database>companydb</database>
+            <username>root</username>
+            <password>only4dbms</password>
+            <tables>["department", "employee"]</tables>
+        </input>
+    </inputs>
+    <pipeline>
+        <stage>
+          <operation type="col">
+            <output>Data1</output>
+            <input type="col">["employee"]</input>
+            <name>LowerCase</name>
+            <parameters>{"column_name": "fname"}</parameters>
+          </operation>
+          <outputName>Stage1</outputName>
+        </stage>
+        <stage>
+            <operation type="col">
+                <output>Data1</output>
+                <input type="col">["Data1"]</input>
+                <name>CustomTransform</name>
+                <parameters>{"python_source": "filter"}</parameters>
+              </operation>
+              <outputName>Stage2</outputName>
+        </stage>
+      </pipeline>
+    <!-- <pipeline>
+        <stage>
+            <operation type="col">
+                <output>A</output>
+                <name>LowerCase</name>
+            </operation>
+            <operation type="col">
+                <output>A</output>
+                <input>abcd</input>
+                <name>UpperCase</name>
+            </operation>
+            <outputName>data-2</outputName>
+        </stage>
+    </pipeline>     -->
+</specification>

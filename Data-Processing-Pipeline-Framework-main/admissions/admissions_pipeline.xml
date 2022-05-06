@@ -1,0 +1,247 @@
+<specification xmlns="pipeline">
+  <inputs>
+    <input type="csv">
+      <file>./admissions/admissions1.csv</file>
+      <table>admissions1</table>
+    </input>
+    <input type="csv">
+      <file>./admissions/admissions2.csv</file>
+      <table>admissions2</table>
+    </input>
+    <input type="csv">
+      <file>./admissions/admissions3.csv</file>
+      <table>admissions3</table>
+    </input>
+  </inputs>
+  <pipeline>
+    <stage>
+        <stageName>Append stage</stageName>
+        <operation type="col">
+          <output>admissions</output>
+          <input type="col">["admissions1", "admissions2", "admissions3"]</input>
+          <name>AppendTables</name>
+          <parameters>{"input_tables": ["admissions1", "admissions2", "admissions3"]}</parameters>
+        </operation>
+    </stage>
+    <stage>
+        <stageName>Primary Filter stage</stageName>
+        <operation type="col">
+          <output>d1</output>
+          <input type="col">["admissions"]</input>
+          <name>DeleteDuplicates</name>
+          <parameters>{}</parameters>
+        </operation>
+        <operation type="col">
+          <output>d2</output>
+          <input type="col">["d1"]</input>
+          <name>IntFilter</name>
+          <parameters>{"column_name": "Jee marks", "greater_than_equal_to": 0, "less_than_equal_to": 500}</parameters>
+        </operation>
+        <operation type="col">
+          <output>d3</output>
+          <input type="col">["d2"]</input>
+          <name>IntFilter</name>
+          <parameters>{"column_name": "CBSE marks", "greater_than_equal_to": 0, "less_than_equal_to": 100}</parameters>
+        </operation>
+        <operation type="col">
+          <output>filtered_data</output>
+          <input type="col">["d3"]</input>
+          <name>CustomFilter</name>
+          <parameters>{"python_source": "admission_functions",  "path":"admissions/scripts"}</parameters>
+        </operation>
+    </stage>
+    <stage>
+      <stageName>Data clean up stage</stageName>
+        <operation type="col">
+          <output>d1</output>
+          <input type="col">["filtered_data"]</input>
+          <name>LowerCase</name>
+          <parameters>{"column_name": "name"}</parameters>
+        </operation>
+        <operation type="col">
+          <output>d2</output>
+          <input type="col">["d1"]</input>
+          <name>LowerCase</name>
+          <parameters>{"column_name": "Father name"}</parameters>
+        </operation>
+        <operation type="col">
+          <output>d3</output>
+          <input type="col">["d2"]</input>
+          <name>LowerCase</name>
+          <parameters>{"column_name": "Mother name"}</parameters>
+        </operation>
+        <operation type="col">
+          <output>d4</output>
+          <input type="col">["d3"]</input>
+          <name>SplitColumn</name>
+          <parameters>{"column_name": "name", "split_by": " "}</parameters>
+        </operation>
+        <operation type="col">
+          <output>d5</output>
+          <input type="col">["d4"]</input>
+          <name>SplitColumn</name>
+          <parameters>{"column_name": "Father name", "split_by": " "}</parameters>
+        </operation>
+        <operation type="col">
+          <output>d6</output>
+          <input type="col">["d5"]</input>
+          <name>SplitColumn</name>
+          <parameters>{"column_name": "Mother name", "split_by": " "}</parameters>
+        </operation>
+        <operation type="col">
+          <output>d7</output>
+          <input type="col">["d6"]</input>
+          <name>RenameColumn</name>
+          <parameters>{"column_name": "name1", "new_column_name": "first name"}</parameters>
+        </operation>
+        <operation type="col">
+          <output>d8</output>
+          <input type="col">["d7"]</input>
+          <name>RenameColumn</name>
+          <parameters>{"column_name": "name2", "new_column_name": "last name"}</parameters>
+        </operation>
+        <operation type="col">
+          <output>d9</output>
+          <input type="col">["d8"]</input>
+          <name>RenameColumn</name>
+          <parameters>{"column_name": "Father name1", "new_column_name": "Father first name"}</parameters>
+        </operation>
+        <operation type="col">
+          <output>d10</output>
+          <input type="col">["d9"]</input>
+          <name>RenameColumn</name>
+          <parameters>{"column_name": "Father name2", "new_column_name": "Father last name"}</parameters>
+        </operation>
+        <operation type="col">
+          <output>d11</output>
+          <input type="col">["d10"]</input>
+          <name>RenameColumn</name>
+          <parameters>{"column_name": "Mother name1", "new_column_name": " Mother first name"}</parameters>
+        </operation>
+        <operation type="col">
+          <output>d12</output>
+          <input type="col">["d11"]</input>
+          <name>RenameColumn</name>
+          <parameters>{"column_name": "Mother name2", "new_column_name": "Mother last name"}</parameters>
+        </operation>
+        <operation type="col">
+          <output>d13</output>
+          <input type="col">["d12"]</input>
+          <name>DeleteColumn</name>
+          <parameters>{"column_name": "name"}</parameters>
+        </operation>
+        <operation type="col">
+          <output>d14</output>
+          <input type="col">["d13"]</input>
+          <name>DeleteColumn</name>
+          <parameters>{"column_name": "Father name"}</parameters>
+        </operation>
+        <operation type="col">
+          <output>d15</output>
+          <input type="col">["d14"]</input>
+          <name>DeleteColumn</name>
+          <parameters>{"column_name": "Mother name"}</parameters>
+        </operation>
+        <operation type="col">
+          <output>clean_data</output>
+          <input type="col">["d15"]</input>
+          <name>CustomTransform</name>
+          <parameters>{"python_source": "admission_functions", "path":"admissions/scripts"}</parameters>
+        </operation>
+    </stage>
+    <stage>
+        <stageName>Marks Validation stage</stageName>
+          <operation type="col">
+            <output>clean_data</output>
+            <input type="col">["clean_data"]</input>
+            <name>IntegerValidation</name>
+            <parameters>{"column_name": "Jee marks", "comparator": ">", "value": 0}</parameters>
+          </operation>
+          <operation type="col">
+            <output>clean_data</output>
+            <input type="col">["clean_data"]</input>
+            <name>IntegerValidation</name>
+            <parameters>{"column_name": "CBSE marks", "comparator": ">", "value": 0}</parameters>
+          </operation>
+    </stage>
+    <stage>
+      <stageName>Date format validation</stageName>
+      <operation type="col">
+        <output>clean_data</output>
+        <input type="col">["clean_data"]</input>
+        <name>DateValidation</name>
+        <parameters>{"column_name": "date of application", "format": "%d/%m/%Y"}</parameters>
+      </operation>
+      <operation type="col">
+        <output>clean_data</output>
+        <input type="col">["clean_data"]</input>
+        <name>DateValidation</name>
+        <parameters>{"column_name": "School completion date", "format": "%d/%m/%Y"}</parameters>
+      </operation>
+    </stage>
+    <stage>
+      <stageName>Date custom validation</stageName>
+      <operation type="col">
+        <output>clean_data</output>
+        <input type="col">["clean_data"]</input>
+        <name>CustomValidation</name>
+        <parameters>{"python_source": "admission_functions",  "path":"admissions/scripts"}</parameters>
+      </operation>
+    </stage>
+    <stage>
+      <stageName>Contact number validation</stageName>
+      <operation type="col">
+        <output>clean_data</output>
+        <input type="col">["clean_data"]</input>
+        <name>RegExValidation</name>
+        <parameters>{"column_name": "ContactNo", "regex": "[0-9]-[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]"}</parameters>
+      </operation>
+    </stage>
+    <stage>
+      <stageName>Filter avg cbse marks stage</stageName>
+      <operation type="col">
+        <output>cbse_mean</output>
+        <input type="col">["clean_data"]</input>
+        <name>MeanAggregation</name>
+        <parameters>{"column_name": "CBSE marks"}</parameters>
+      </operation>
+      <operation type="col">
+        <output>d1</output>
+        <input type="col">["clean_data", "cbse_mean"]</input>
+        <name>SubVariable</name>
+        <parameters>{"table_name": "clean_data", "column_name": "CBSE marks", "variable": "cbse_mean"}</parameters>
+      </operation>
+      <operation type="col">
+        <output>filtered_data</output>
+        <input type="col">["d1"]</input>
+        <name>IntFilter</name>
+        <parameters>{"column_name": "CBSE marks", "greater_than_equal_to": 0}</parameters>
+      </operation>
+    </stage>
+
+    <stage>
+      <stageName>Final shortlist</stageName>
+      <operation type="col">
+        <output>final_shortlist</output>
+        <input type="col">["filtered_data"]</input>
+        <name>IntFilter</name>
+        <parameters>{"column_name": "Jee marks", "greater_than_equal_to": 200}</parameters>
+      </operation>
+      <callback>
+        <path>admissions/scripts</path>
+        <file>callbacks</file>
+      </callback>
+    </stage>
+
+  </pipeline>
+  <outputs>
+    <output type="csv">
+      <file>./admissions/admissions.csv</file>
+      <table>final_shortlist</table>
+    </output>
+    <output type="excel">
+      <file>./admissions/admissions_shortlist_result.xlsx</file>
+      <tables>["final_shortlist", "filtered_data"]</tables>
+    </output>
+  </outputs>
+</specification>

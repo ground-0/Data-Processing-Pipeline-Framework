@@ -1,0 +1,65 @@
+<specification>
+    <input>
+        <path>path/to/data/data-1</path>
+        <format>xlsx</format>
+        <schema>
+            <firstrowtitle>true</firstrowtitle>
+            <cols>
+                <col type="string"/>
+                <col type="string"/>
+                <col type="phone"/>
+                <col type="int"/>
+                <col type="currency"/>
+                <col type="string"/>
+                <col type="hh:mm:ss"/>
+                <col type="string"/>
+            </cols>
+        </schema>
+    </input>
+    <pipeline>
+        <stage>
+            <col>A</col>
+            <operation type="col">
+                <name>toLower</name>
+            </operation>
+            <output>data-2</output>
+        </stage>
+        <stage>
+            <col>D</col>
+            <operation type="col">
+                <input type="col">D</input>
+                <code>D-mean(D)</code>                
+            </operation>
+            <output>data-3</output>
+        </stage>
+
+        <stage>
+            <col>G</col>
+            <operation type="col">
+                <input type="col">G</input>
+                <name>add</name>
+                <parameter>G</parameter>
+                <parameter>05:00:00</parameter>
+            </operation>
+            <output>data-4</output>
+        </stage>
+        <stage>
+            <col>C</col>
+            <operation type="col">
+                <input type="col">C</input>
+                <code>substr(1,3)</code>
+            </operation>
+            <output>data-5</output>
+        </stage>
+        <stage>
+            <col>H</col>
+            <operation>
+                <name>len</name>
+            </operation>
+            <output>data-6</output>
+        </stage>
+    </pipeline>
+    <output>
+        <path>path/to/data</path>
+    </output>
+</specification>

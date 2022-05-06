@@ -1,0 +1,46 @@
+
+<pipeline xmlns="pipeline" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <stage>
+        <operation type="col">
+            <output>A</output>
+            <name>toLower</name>
+        </operation>
+        <outputName>data-2</outputName>
+    </stage>
+    <stage>
+        <operation type="col">
+            <output>D</output>
+            <input type="col">D</input>
+            <formula>D-mean(D)</formula>                
+        </operation>
+        <outputName>data-3</outputName>
+    </stage>
+
+    <stage>
+        
+        <operation type="col">
+            <output>G</output>
+            <input type="col">G</input>
+            <name>add</name>
+            <parameter>G</parameter>
+            <parameter>05:00:00</parameter>
+        </operation>
+        <outputName>data-4</outputName>
+    </stage>
+    <stage>
+
+        <operation type="col">
+            <output>C</output>
+            <input type="col">C</input>
+            <formula>substr(1,3)</formula>
+        </operation>
+        <outputName>data-5</outputName>
+    </stage>
+    <stage>
+        <operation>
+            <output>H</output>
+            <name>len</name>
+        </operation>
+        <outputName>data-6</outputName>
+    </stage>
+</pipeline>

@@ -1,0 +1,252 @@
+<specification xmlns="pipeline">
+  <inputs>
+    <input type="excel">
+      <file>./etl_process/market_db_JPN.xls</file>
+    </input>
+    <input type="excel">
+      <file>./etl_process/market_db_USA.xls</file>
+    </input>
+    <input type="excel">
+      <file>./etl_process/market_db_IND.xls</file>
+    </input>
+  </inputs>
+  <pipeline>
+    <stage>
+      <stageName>Synchronise schema stage </stageName>
+      <operation type="col">
+        <output>IND_prod</output>
+        <input type="col">["IND_prod"]</input>
+        <name>RenameColumn</name>
+        <parameters>{"column_name": "Product_Sub_Category", "new_column_name": "product_sub_category"}</parameters>
+      </operation>
+      <operation type="col">
+        <output>JPN_prod</output>
+        <input type="col">["JPN_prod"]</input>
+        <name>RenameColumn</name>
+        <parameters>{"column_name": "ProductSubCategory", "new_column_name": "product_sub_category"}</parameters>
+      </operation>
+      <operation type="col">
+        <output>USA_prod</output>
+        <input type="col">["USA_prod"]</input>
+        <name>RenameColumn</name>
+        <parameters>{"column_name": "ProductSub_Category", "new_column_name": "product_sub_category"}</parameters>
+      </operation>
+      <operation type="col">
+        <output>IND_prod</output>
+        <input type="col">["IND_prod"]</input>
+        <name>RenameColumn</name>
+        <parameters>{"column_name": "Product_Category", "new_column_name": "product_category"}</parameters>
+      </operation>
+      <operation type="col">
+        <output>JPN_prod</output>
+        <input type="col">["JPN_prod"]</input>
+        <name>RenameColumn</name>
+        <parameters>{"column_name": "ProductCategory", "new_column_name": "product_category"}</parameters>
+      </operation>
+      <operation type="col">
+        <output>USA_prod</output>
+        <input type="col">["USA_prod"]</input>
+        <name>RenameColumn</name>
+        <parameters>{"column_name": "ProductCategory", "new_column_name": "product_category"}</parameters>
+      </operation>
+    </stage>
+    <stage>
+      <stageName>Adding suffix to primary keys stage</stageName>
+      <operation>
+        <output>IND_cust</output>
+        <input>["IND_cust"]</input>
+        <name>CustomTransform</name>
+        <parameters>{"python_source": "ind_transform", "path": "etl_process/scripts"}</parameters>
+      </operation>
+      <operation>
+        <output>IND_order</output>
+        <input>["IND_order"]</input>
+        <name>CustomTransform</name>
+        <parameters>{"python_source": "ind_transform", "path": "etl_process/scripts"}</parameters>
+      </operation>
+      <operation>
+        <output>IND_sales</output>
+        <input>["IND_sales"]</input>
+        <name>CustomTransform</name>
+        <parameters>{"python_source": "ind_transform", "path": "etl_process/scripts"}</parameters>
+      </operation>
+      <operation>
+        <output>JPN_cust</output>
+        <input>["JPN_cust"]</input>
+        <name>CustomTransform</name>
+        <parameters>{"python_source": "jpn_transform", "path": "etl_process/scripts"}</parameters>
+      </operation>
+      <operation>
+        <output>JPN_order</output>
+        <input>["JPN_order"]</input>
+        <name>CustomTransform</name>
+        <parameters>{"python_source": "jpn_transform", "path": "etl_process/scripts"}</parameters>
+      </operation>
+      <operation>
+        <output>JPN_sales</output>
+        <input>["JPN_sales"]</input>
+        <name>CustomTransform</name>
+        <parameters>{"python_source": "jpn_transform", "path": "etl_process/scripts"}</parameters>
+      </operation>
+      <operation>
+        <output>USA_cust</output>
+        <input>["USA_cust"]</input>
+        <name>CustomTransform</name>
+        <parameters>{"python_source": "usa_transform", "path": "etl_process/scripts"}</parameters>
+      </operation>
+      <operation>
+        <output>USA_order</output>
+        <input>["USA_order"]</input>
+        <name>CustomTransform</name>
+        <parameters>{"python_source": "usa_transform", "path": "etl_process/scripts"}</parameters>
+      </operation>
+      <operation>
+        <output>USA_sales</output>
+        <input>["USA_sales"]</input>
+        <name>CustomTransform</name>
+        <parameters>{"python_source": "usa_transform", "path": "etl_process/scripts"}</parameters>
+      </operation>
+    </stage>
+    <stage>
+      <stageName>Adding 2 columns</stageName>
+      <operation>
+        <output>JPN_cust</output>
+        <input>["JPN_cust"]</input>
+        <name>InsertColumn</name>
+        <parameters>{"column_name": "State", "default_value":"NULL"}</parameters>
+      </operation>
+      <operation>
+        <output>USA_sales</output>
+        <input>["USA_sales"]</input>
+        <name>InsertColumn</name>
+        <parameters>{"column_name": "Shipping_Cost", "default_value":0}</parameters>
+      </operation>
+    </stage>
+    <stage>
+      <stageName>Currrency conversion</stageName>
+      <operation>
+        <output>JPN_sales</output>
+        <input>["JPN_sales"]</input>
+        <name>DivideValue</name>
+        <parameters>{"column_name": "Sales", "value": 13, "precision": 2}</parameters>
+      </operation>
+      <operation>
+        <output>USA_sales</output>
+        <input>["USA_sales"]</input>
+        <name>MultiplyValue</name>
+        <parameters>{"column_name": "Sales", "value": 75, "precision": 2}</parameters>
+      </operation>
+    </stage>
+    <stage>
+      <stageName>Joining for fact_tables</stageName>
+      <operation>
+        <output>JPN_sales</output>
+        <input>["JPN_sales","JPN_order"]</input>
+        <name>JoinTableOperation</name>
+        <parameters>{"table1":"JPN_sales", "table2":"JPN_order", "left_on":"Ord_id", "right_on":"Ord_id", "type":"inner"}</parameters>
+      </operation>
+      <operation>
+        <output>IND_sales</output>
+        <input>["IND_sales","IND_order"]</input>
+        <name>JoinTableOperation</name>
+        <parameters>{"table1":"IND_sales", "table2":"IND_order", "left_on":"Ord_id", "right_on":"Ord_id", "type":"inner"}</parameters>
+      </operation>
+      <operation>
+        <output>USA_sales</output>
+        <input>["USA_sales","USA_order"]</input>
+        <name>JoinTableOperation</name>
+        <parameters>{"table1":"USA_sales", "table2":"USA_order", "left_on":"Ord_id", "right_on":"Ord_id", "type":"inner"}</parameters>
+      </operation>
+    </stage>
+    <stage>
+      <stageName>Clean up stage</stageName>
+      <operation>
+        <output>IND_sales</output>
+        <input>["IND_sales"]</input>
+        <name>DeleteColumn</name>
+        <parameters>{"column_name": "Order_ID"}</parameters>
+      </operation>
+      <operation>
+        <output>IND_sales</output>
+        <input>["IND_sales"]</input>
+        <name>DeleteColumn</name>
+        <parameters>{"column_name": "Order_Priority"}</parameters>
+      </operation>
+      <operation>
+        <output>IND_sales</output>
+        <input>["IND_sales"]</input>
+        <name>DeleteColumn</name>
+        <parameters>{"column_name": "Order_date"}</parameters>
+      </operation>
+      <operation>
+        <output>USA_sales</output>
+        <input>["USA_sales"]</input>
+        <name>DeleteColumn</name>
+        <parameters>{"column_name": "Order_ID"}</parameters>
+      </operation>
+      <operation>
+        <output>USA_sales</output>
+        <input>["USA_sales"]</input>
+        <name>DeleteColumn</name>
+        <parameters>{"column_name": "Order_Priority"}</parameters>
+      </operation>
+      <operation>
+        <output>USA_sales</output>
+        <input>["USA_sales"]</input>
+        <name>DeleteColumn</name>
+        <parameters>{"column_name": "Order_date"}</parameters>
+      </operation>
+      <operation>
+        <output>JPN_sales</output>
+        <input>["JPN_sales"]</input>
+        <name>DeleteColumn</name>
+        <parameters>{"column_name": "Order_ID"}</parameters>
+      </operation>
+      <operation>
+        <output>JPN_sales</output>
+        <input>["JPN_sales"]</input>
+        <name>DeleteColumn</name>
+        <parameters>{"column_name": "Order_Priority"}</parameters>
+      </operation>
+      <operation>
+        <output>JPN_sales</output>
+        <input>["JPN_sales"]</input>
+        <name>DeleteColumn</name>
+        <parameters>{"column_name": "Order_date"}</parameters>
+      </operation>
+    </stage>
+    <stage>
+      <stageName>AppendTables</stageName>
+      <operation>
+        <output>fact_sales</output>
+        <input>["IND_sales","JPN_sales","USA_sales"]</input>
+        <name>AppendTables</name>
+        <parameters>{"input_tables":["IND_sales","JPN_sales","USA_sales"]}</parameters>
+      </operation>
+      <operation>
+        <output>dim_order</output>
+        <input>["IND_order","JPN_order","USA_order"]</input>
+        <name>AppendTables</name>
+        <parameters>{"input_tables":["IND_order","JPN_order","USA_order"]}</parameters>
+      </operation>
+      <operation>
+        <output>dim_prod</output>
+        <input>["IND_prod","JPN_prod","USA_prod"]</input>
+        <name>AppendTables</name>
+        <parameters>{"input_tables":["IND_prod","JPN_prod","USA_prod"]}</parameters>
+      </operation>
+      <operation>
+        <output>dim_cust</output>
+        <input>["IND_cust","JPN_cust","USA_cust"]</input>
+        <name>AppendTables</name>
+        <parameters>{"input_tables":["IND_cust","JPN_cust","USA_cust"]}</parameters>
+      </operation>
+    </stage>
+  </pipeline>
+    <outputs>
+    <input type="excel">
+      <file>./etl_process/result_market_db.xlsx</file>
+      <tables>["fact_sales", "dim_order", "dim_cust", "dim_prod"]</tables>
+    </input>
+  </outputs>
+</specification>

@@ -1,0 +1,31 @@
+<specification xmlns="pipeline">
+  <inputs>
+    <input type="csv">
+      <file>./sample_data/random_data.csv</file>
+      <table>random_data</table>
+    </input>
+  </inputs>
+  <pipeline>
+    <stage>
+      <operation type="">
+        <output>data1</output>
+        <input type="">["random_data"]</input>
+        <name>LowerCase</name>
+        <parameters>{"column_name": "firstname"}</parameters>
+      </operation>
+      <operation type="">
+        <output>data2</output>
+        <input type="">["data1"]</input>
+        <name>UpperCase</name>
+        <parameters>{"column_name": "lastname"}</parameters>
+      </operation>
+      <stageName>stage1</stageName>
+    </stage>
+  </pipeline>
+  <outputs>
+    <output type="csv">
+      <file>./result.csv</file>
+      <table>data2</table>
+    </output>
+  </outputs>
+</specification>

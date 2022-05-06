@@ -1,0 +1,11 @@
+<pipeline xmlns="pipeline">
+  <stage>
+    <operation type="col">
+      <output>Data1</output>
+      <input type="col">["employee"]</input>
+      <name>LowerCase</name>
+      <parameters>{"column_name": "fname"}</parameters>
+    </operation>
+    <outputName>Stage1</outputName>
+  </stage>
+</pipeline>

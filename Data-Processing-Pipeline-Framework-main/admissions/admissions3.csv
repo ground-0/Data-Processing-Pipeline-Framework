@@ -1,0 +1,292 @@
+ID,name,Jee marks,school name,date of application,Father name,Mother name,EmailId,ContactNo,Gender,School completion date,City,CBSE marks
+710,Stacy Aldridge,43.9298389465221,University-preparatory school,3/30/2022,Stacy Aldridge,Stacy Aldridge,Stacy_Aldridge4517@deavo.com,0-152-302-8650,Female,12/9/2020,Lincoln,107.620625127396
+711,Ryan Tanner,25.3092561887155,University-preparatory school,3/1/2022,Ryan Tanner,Ryan Tanner,Ryan_Tanner3015@zorer.org,5-466-664-5847,Male,3/21/2021,Phoenix,113.331721696226
+712,Tyson Thornton,38.1294906647548,Junior college,4/15/2022,Tyson Thornton,Tyson Thornton,Tyson_Thornton8990@acrit.org,1-473-754-0458,Male,10/8/2021,Lisbon,31.1138351881475
+713,Mark Partridge,475.446747083891,Junior college,3/13/2022,Mark Partridge,Mark Partridge,Mark_Partridge3900@nimogy.biz,2-016-567-3214,Male,10/25/2021,San Jose,83.1834749054087
+714,Logan Ainsworth,138.06224228398,University college,3/25/2022,Logan Ainsworth,Logan Ainsworth,Logan_Ainsworth764@famism.biz,1-185-650-1017,Male,1/5/2021,Amarillo,110.769676373699
+715,Tyler Wilde,-62.9036811165994,Gymnasium,3/30/2022,Tyler Wilde,Tyler Wilde,Tyler_Wilde3372@iatim.tech,7-102-577-8732,Male,7/31/2020,Garland,-4.6954293999334
+716,Owen Yarwood,444.992408830203,Technical college,3/4/2022,Owen Yarwood,Owen Yarwood,Owen_Yarwood5610@yahoo.com,8-648-624-8205,Male,11/30/2021,Garland,112.582795736186
+717,Ramon Abbot,458.983077257864,Gymnasium,3/14/2022,Ramon Abbot,Ramon Abbot,Ramon_Abbot823@tonsy.org,7-222-357-6670,Male,11/27/2020,Memphis,-5.8242141687424
+718,Henry Walsh,375.048346692253,Middle school,4/8/2022,Henry Walsh,Henry Walsh,Henry_Walsh2044@deavo.com,3-277-543-1247,Male,3/5/2022,Hollywood,195.184610002294
+719,Sofia Fulton,247.127542334668,Junior college,3/26/2022,Sofia Fulton,Sofia Fulton,Sofia_Fulton790@brety.org,3-415-631-3578,Female,4/13/2020,Bakersfield,56.1754954490697
+720,Barney Eagle,122.980619866392,Gymnasium,4/2/2022,Barney Eagle,Barney Eagle,Barney_Eagle2143@eirey.tech,4-164-272-0175,Male,4/14/2022,Honolulu,118.662183957948
+721,Denis Hopkinson,206.643376638015,Middle school,3/8/2022,Denis Hopkinson,Denis Hopkinson,Denis_Hopkinson6820@vetan.org,2-353-626-3062,Male,10/15/2021,Richmond,92.0924066869041
+722,Eduardo Tate,-80.5914744490718,Public university,4/3/2022,Eduardo Tate,Eduardo Tate,Eduardo_Tate6904@deavo.com,8-413-133-7212,Male,2/9/2021,Laredo,98.7785242748347
+723,Tony Owen,392.685824981279,Corporate university,3/18/2022,Tony Owen,Tony Owen,Tony_Owen1616@joiniaa.com,1-302-451-3866,Male,9/16/2021,Santa Ana,113.922356369403
+724,Belinda Warner,324.568447368019,Gymnasium,4/2/2022,Belinda Warner,Belinda Warner,Belinda_Warner2245@famism.biz,6-160-233-8100,Female,10/3/2020,Lyon,5.74258743400806
+725,Mike Wright,34.5777731824563,High school,3/31/2022,Mike Wright,Mike Wright,Mike_Wright452@muall.tech,5-668-585-4235,Male,2/2/2022,Stockton,154.562254189775
+726,Lillian Dowson,401.260228489181,University college,4/14/2022,Lillian Dowson,Lillian Dowson,Lillian_Dowson8785@atink.com,0-134-054-4135,Female,4/5/2022,Glendale,31.1689216718864
+727,Russel Emmott,231.229998553279,University-preparatory school,4/14/2022,Russel Emmott,Russel Emmott,Russel_Emmott7998@jiman.org,7-325-542-4852,Male,5/9/2020,Fort Lauderdale,46.5832441354092
+728,David Flanders,208.692460321212,Corporate university,3/30/2022,David Flanders,David Flanders,David_Flanders1268@eirey.tech,7-317-165-7756,Male,10/26/2021,Valetta,178.057877402314
+729,Rosalee Varndell,182.16164663395,Graduate school,4/11/2022,Rosalee Varndell,Rosalee Varndell,Rosalee_Varndell3419@eirey.tech,3-634-070-4153,Female,10/4/2021,Chicago,187.104185086724
+730,Maddison Kirby,397.261196546844,University college,4/12/2022,Maddison Kirby,Maddison Kirby,Maddison_Kirby1564@naiker.biz,7-432-436-6533,Female,9/24/2021,Cincinnati,4.10932857222358
+731,Rocco Hobson,249.160921513178,Junior college,4/16/2022,Rocco Hobson,Rocco Hobson,Rocco_Hobson8747@gompie.com,1-875-231-6261,Male,1/25/2021,Oakland,34.1341022328167
+732,Domenic Redwood,-58.0318391327895,Public university,4/13/2022,Domenic Redwood,Domenic Redwood,Domenic_Redwood3450@bungar.biz,5-671-888-1352,Male,1/4/2021,Milano,17.8409954606746
+733,Tiffany Niles,253.177039130673,Public university,4/14/2022,Tiffany Niles,Tiffany Niles,Tiffany_Niles2237@atink.com,1-875-654-1160,Female,9/19/2021,Nashville,127.713218672999
+734,Hayden Vallory,483.317050584274,University-preparatory school,3/8/2022,Hayden Vallory,Hayden Vallory,Hayden_Vallory1272@elnee.tech,6-031-750-5508,Male,7/31/2021,Salt Lake City,131.210121632651
+735,Cedrick Burnley,222.287607367284,University-preparatory school,3/1/2022,Cedrick Burnley,Cedrick Burnley,Cedrick_Burnley152@twipet.com,1-023-628-5020,Male,7/30/2021,Santa Ana,30.2840241628159
+736,Camila Coll,274.544675502714,Public university,3/29/2022,Camila Coll,Camila Coll,Camila_Coll1278@bungar.biz,0-466-531-5511,Female,9/30/2020,Minneapolis,87.6820485338951
+737,Helen Swan,209.786829748557,Graduate school,3/21/2022,Helen Swan,Helen Swan,Helen_Swan1762@bretoux.com,6-838-581-3855,Female,12/10/2020,Pittsburgh,102.684382306265
+738,Javier Ellery,171.986578069155,High school,3/2/2022,Javier Ellery,Javier Ellery,Javier_Ellery6219@guentu.biz,4-373-187-8810,Male,5/16/2020,Valetta,114.034028068666
+739,Beatrice Hobbs,134.143308811888,University college,3/26/2022,Beatrice Hobbs,Beatrice Hobbs,Beatrice_Hobbs9295@bauros.biz,1-361-240-5475,Female,7/16/2021,Bridgeport,21.856414852597
+740,Denis Harrison,239.12230763171,Public university,3/1/2022,Denis Harrison,Denis Harrison,Denis_Harrison5546@vetan.org,3-038-321-2638,Male,9/25/2020,Lincoln,37.1310504903696
+741,Cecilia Sherwood,120.904648943294,Gymnasium,4/7/2022,Cecilia Sherwood,Cecilia Sherwood,Cecilia_Sherwood7834@twipet.com,8-812-521-0047,Female,8/12/2020,Norfolk,53.2403543331848
+742,Vera Connell,414.494011053114,University college,4/4/2022,Vera Connell,Vera Connell,Vera_Connell7152@twace.org,8-808-507-0471,Female,10/3/2020,Lincoln,60.4442502564957
+743,Samara Niles,-20.2197578378114,Technical college,3/4/2022,Samara Niles,Samara Niles,Samara_Niles7224@gembat.biz,3-328-207-8201,Female,10/25/2021,Arlington,9.50548342871735
+744,Rick Smith,-51.6631348196711,Corporate university,4/7/2022,Rick Smith,Rick Smith,Rick_Smith3042@eirey.tech,1-757-682-2013,Male,5/10/2021,Chicago,12.4525016576296
+745,Maya Richards,63.6054334498967,Junior college,3/14/2022,Maya Richards,Maya Richards,Maya_Richards7678@gmail.com,3-870-804-6687,Female,10/7/2020,Prague,90.4037147170881
+746,Paige Herbert,410.726642993617,High school,3/27/2022,Paige Herbert,Paige Herbert,Paige_Herbert9280@tonsy.org,6-378-165-4283,Female,3/17/2021,Minneapolis,31.72864451433
+747,Oliver Flack,461.001743300819,Junior college,3/8/2022,Oliver Flack,Oliver Flack,Oliver_Flack400@bulaffy.com,2-670-032-7718,Male,12/16/2021,Lyon,140.522731227578
+748,Nathan Bailey,308.595352176854,University college,3/20/2022,Nathan Bailey,Nathan Bailey,Nathan_Bailey5954@bretoux.com,1-201-066-8502,Male,5/29/2020,Tokyo,182.764745501226
+749,Diane Savage,90.5221011687639,Technical college,3/4/2022,Diane Savage,Diane Savage,Diane_Savage6125@nickia.com,8-277-867-3636,Female,9/17/2021,Hollywood,142.300742485701
+750,Dakota Snow,199.747377043007,Graduate school,4/14/2022,Dakota Snow,Dakota Snow,Dakota_Snow4942@bretoux.com,2-833-516-0324,Female,10/19/2021,Miami,138.476459156944
+751,Benjamin Jarvis,400.928233617883,University college,4/6/2022,Benjamin Jarvis,Benjamin Jarvis,Benjamin_Jarvis1721@nanoff.biz,3-103-835-1316,Male,5/7/2021,Amarillo,80.3052663222445
+752,Carter Weatcroft,72.6872938227315,Gymnasium,3/7/2022,Carter Weatcroft,Carter Weatcroft,Carter_Weatcroft966@liret.org,0-101-763-8274,Male,4/9/2022,Prague,95.9998789564706
+753,David Bayliss,-69.7580583974524,Gymnasium,4/14/2022,David Bayliss,David Bayliss,David_Bayliss9681@bulaffy.com,2-285-640-2054,Male,12/1/2020,Prague,102.844166786803
+754,Elisabeth Tyrrell,449.130961352089,Graduate school,3/7/2022,Elisabeth Tyrrell,Elisabeth Tyrrell,Elisabeth_Tyrrell4015@guentu.biz,0-272-782-5751,Female,7/9/2021,San Bernardino,122.616320623838
+755,Louise Cassidy,78.6599525677319,Graduate school,3/19/2022,Louise Cassidy,Louise Cassidy,Louise_Cassidy6280@ovock.tech,3-563-731-5237,Female,4/6/2020,Rome,142.410806594608
+756,Aiden Middleton,383.936873816856,Middle school,4/17/2022,Aiden Middleton,Aiden Middleton,Aiden_Middleton1436@fuliss.net,0-167-381-7260,Male,8/4/2020,Lancaster,81.0827591433575
+757,Benny Johnson,287.458458417309,Public university,4/9/2022,Benny Johnson,Benny Johnson,Benny_Johnson2154@tonsy.org,1-137-721-4328,Male,10/5/2020,San Bernardino,23.6698706027446
+758,Jamie Denton,391.451773304237,Corporate university,3/28/2022,Jamie Denton,Jamie Denton,Jamie_Denton2151@bungar.biz,8-048-162-1838,Female,4/15/2022,Milwaukee,-5.83997372809796
+759,Penelope Cunningham,261.714563314204,Corporate university,3/17/2022,Penelope Cunningham,Penelope Cunningham,Penelope_Cunningham411@supunk.biz,8-138-064-7758,Female,9/3/2020,Hayward,147.167295777782
+760,Mike Kaur,102.829848394184,High school,3/23/2022,Mike Kaur,Mike Kaur,Mike_Kaur7977@eirey.tech,8-808-555-0641,Male,10/22/2020,Fort Lauderdale,35.5137974654854
+761,Sebastian Nicolas,391.608136118207,Technical college,4/8/2022,Sebastian Nicolas,Sebastian Nicolas,Sebastian_Nicolas9019@joiniaa.com,0-030-615-8216,Male,9/7/2021,Cincinnati,38.0710273105982
+762,Hannah Mills,292.006042983851,Corporate university,3/7/2022,Hannah Mills,Hannah Mills,Hannah_Mills365@joiniaa.com,3-611-180-7142,Female,3/30/2022,Hollywood,63.7296255527668
+763,Matt Blackwall,33.5243619021607,High school,3/22/2022,Matt Blackwall,Matt Blackwall,Matt_Blackwall7989@twace.org,1-162-654-8163,Male,7/17/2020,Milano,46.019528950108
+764,Kendra Anderson,15.3902591193981,Gymnasium,3/27/2022,Kendra Anderson,Kendra Anderson,Kendra_Anderson5743@typill.biz,1-330-011-7443,Female,7/30/2020,Philadelphia,139.749834032613
+765,Greta Abbey,129.011895046575,Public university,4/18/2022,Greta Abbey,Greta Abbey,Greta_Abbey16@deons.tech,1-571-465-8423,Female,2/23/2022,Hayward,43.4708820574316
+766,Isla Bennett,330.870667983252,University college,3/1/2022,Isla Bennett,Isla Bennett,Isla_Bennett8288@typill.biz,6-431-023-1327,Female,6/9/2021,Escondido,114.963314160222
+767,Marvin Ramsey,69.4066961381616,Middle school,4/11/2022,Marvin Ramsey,Marvin Ramsey,Marvin_Ramsey3496@iatim.tech,7-546-844-4640,Male,3/5/2021,Long Beach,111.557358138988
+768,Chadwick Armstrong,58.6618710116771,Gymnasium,3/12/2022,Chadwick Armstrong,Chadwick Armstrong,Chadwick_Armstrong3057@naiker.biz,6-858-517-0861,Male,6/19/2020,Murfreesboro,82.7151686198614
+769,Kieth Mann,44.2709114343258,University college,3/19/2022,Kieth Mann,Kieth Mann,Kieth_Mann5403@cispeto.com,2-363-177-0044,Male,12/23/2020,Columbus,79.4124693523219
+770,Logan Darcy,287.792649646659,High school,4/6/2022,Logan Darcy,Logan Darcy,Logan_Darcy3110@deons.tech,3-327-736-3052,Male,7/21/2020,Lyon,146.221278043567
+771,Mark Plumb,-56.0694405245918,Corporate university,4/8/2022,Mark Plumb,Mark Plumb,Mark_Plumb4689@grannar.com,7-630-214-1680,Male,12/17/2021,Tallahassee,98.8610949878865
+772,Harry Rodgers,-36.2024883316841,Public university,3/16/2022,Harry Rodgers,Harry Rodgers,Harry_Rodgers5528@deons.tech,0-404-863-0655,Male,11/3/2020,Pittsburgh,12.2860773877642
+773,Henry Butler,-23.0403556102143,Corporate university,3/30/2022,Henry Butler,Henry Butler,Henry_Butler8032@cispeto.com,0-178-766-6674,Male,11/6/2021,Atlanta,24.0783085073709
+774,Alexander Thorne,468.022053528122,University-preparatory school,3/21/2022,Alexander Thorne,Alexander Thorne,Alexander_Thorne1150@supunk.biz,0-804-242-0482,Male,10/17/2021,Quebec,50.7888165813819
+775,Jane Egerton,4.68768662525699,Graduate school,3/12/2022,Jane Egerton,Jane Egerton,Jane_Egerton6347@sveldo.biz,3-543-163-1311,Female,9/19/2021,Indianapolis,-1.93788156608952
+776,Summer Stanton,-99.4589897638461,Junior college,4/8/2022,Summer Stanton,Summer Stanton,Summer_Stanton6644@hourpy.biz,5-778-721-2550,Female,2/20/2022,Rochester,20.0315195429286
+777,Chad Addley,208.757832896317,Corporate university,4/1/2022,Chad Addley,Chad Addley,Chad_Addley3894@liret.org,1-635-685-3826,Male,5/5/2021,Hayward,198.336009745177
+778,Bart Michael,79.3751981423121,Middle school,3/17/2022,Bart Michael,Bart Michael,Bart_Michael3923@dionrab.com,8-138-651-4457,Male,7/8/2020,Madison,127.569478530236
+779,Leah Collins,34.1847092426311,Public university,3/19/2022,Leah Collins,Leah Collins,Leah_Collins8916@elnee.tech,0-416-212-3454,Female,5/10/2021,Dallas,38.3496910912682
+780,Camellia Atkinson,77.9191131782341,Public university,4/18/2022,Camellia Atkinson,Camellia Atkinson,Camellia_Atkinson5635@naiker.biz,0-516-580-6712,Female,3/4/2021,Venice,14.2202097951529
+781,Chester Nicolas,100.956020786406,University-preparatory school,3/10/2022,Chester Nicolas,Chester Nicolas,Chester_Nicolas42@supunk.biz,0-873-134-2154,Male,1/23/2021,Arlington,161.305512407006
+782,Erick Armstrong,29.6228902496504,Public university,3/16/2022,Erick Armstrong,Erick Armstrong,Erick_Armstrong7126@twipet.com,4-761-052-0337,Male,9/17/2021,Los Angeles,165.35798930114
+783,Cedrick Morgan,368.59049373101,Corporate university,4/6/2022,Cedrick Morgan,Cedrick Morgan,Cedrick_Morgan1127@twipet.com,7-430-658-4207,Male,11/27/2021,Bucharest,90.3712048974685
+784,Luke Niles,336.404759057055,Technical college,3/1/2022,Luke Niles,Luke Niles,Luke_Niles3427@hourpy.biz,1-218-434-7262,Male,3/23/2022,Anaheim,149.240995247495
+785,Carter Patel,267.866931877503,High school,4/7/2022,Carter Patel,Carter Patel,Carter_Patel4540@nickia.com,1-815-668-5146,Male,10/25/2021,St. Louis,100.047020224876
+786,Ruth Wright,-42.0903554694217,University college,3/30/2022,Ruth Wright,Ruth Wright,Ruth_Wright4500@infotech44.tech,0-701-174-2251,Female,11/19/2021,Jacksonville,153.002542404459
+787,Tyler Groves,440.090085152579,Public university,4/10/2022,Tyler Groves,Tyler Groves,Tyler_Groves4114@bauros.biz,7-645-168-7872,Male,2/9/2022,Phoenix,44.7650078687654
+788,Victoria Oakley,395.912711063359,Graduate school,4/16/2022,Victoria Oakley,Victoria Oakley,Victoria_Oakley5070@womeona.net,0-782-425-1178,Female,11/10/2021,Irving,6.52553145705049
+789,Isla Mcgregor,448.299655522825,Public university,4/11/2022,Isla Mcgregor,Isla Mcgregor,Isla_Mcgregor7134@guentu.biz,3-421-700-4800,Female,8/28/2021,Richmond,83.9586903890402
+790,Angela Whatson,447.834446071104,High school,4/17/2022,Angela Whatson,Angela Whatson,Angela_Whatson7496@bretoux.com,8-384-445-0854,Female,4/10/2021,Portland,63.8043748283779
+791,Belinda Mills,141.882913867888,University college,3/28/2022,Belinda Mills,Belinda Mills,Belinda_Mills4133@guentu.biz,8-271-168-1553,Female,10/14/2021,Kansas City,194.74352399015
+792,Liam Gallacher,99.487374486163,University college,3/2/2022,Liam Gallacher,Liam Gallacher,Liam_Gallacher9896@sveldo.biz,1-565-264-5481,Male,12/15/2021,Springfield,56.1496393238891
+793,Melinda Reynolds,286.009714182471,Middle school,4/13/2022,Melinda Reynolds,Melinda Reynolds,Melinda_Reynolds7093@fuliss.net,1-541-307-8663,Female,1/14/2022,Tokyo,54.3838119783363
+794,Rick Booth,327.611606334621,Public university,4/15/2022,Rick Booth,Rick Booth,Rick_Booth4297@yahoo.com,4-688-531-8553,Male,6/11/2021,Garland,109.397186613361
+795,Ethan Yates,-47.6093353278047,Graduate school,4/12/2022,Ethan Yates,Ethan Yates,Ethan_Yates4073@gmail.com,4-258-486-8173,Male,5/4/2020,Oklahoma City,16.1518776426799
+796,Noah Shelton,9.84900057355361,University college,4/2/2022,Noah Shelton,Noah Shelton,Noah_Shelton4823@fuliss.net,3-117-181-3745,Male,2/12/2021,Henderson,197.737310497899
+797,Gloria Denton,-77.5241623183359,Technical college,3/4/2022,Gloria Denton,Gloria Denton,Gloria_Denton4790@atink.com,1-578-574-1136,Female,12/9/2021,Wien,146.629056928507
+798,Teagan Verdon,-25.0811690520873,Public university,3/7/2022,Teagan Verdon,Teagan Verdon,Teagan_Verdon1044@bulaffy.com,4-234-557-2167,Female,4/2/2020,Innsbruck,145.321016591657
+799,Emely Jenkins,-35.4509202854014,Public university,3/27/2022,Emely Jenkins,Emely Jenkins,Emely_Jenkins1255@nanoff.biz,0-042-036-1113,Female,9/3/2021,Saint Paul,15.9217675174222
+800,Michael Gallacher,107.398530138376,Graduate school,3/11/2022,Michael Gallacher,Michael Gallacher,Michael_Gallacher7119@infotech44.tech,7-046-340-8644,Male,5/10/2021,Moreno Valley,104.418612839849
+801,Boris Norton,282.619721070221,Junior college,4/7/2022,Boris Norton,Boris Norton,Boris_Norton6009@liret.org,1-325-310-0541,Male,3/16/2022,Washington,102.79339729333
+802,Carter Welsch,143.245415061361,Junior college,3/22/2022,Carter Welsch,Carter Welsch,Carter_Welsch4978@nanoff.biz,0-123-624-3263,Male,11/29/2021,Fremont,122.95414747901
+803,Nathan Richardson,208.298939102469,Technical college,3/2/2022,Nathan Richardson,Nathan Richardson,Nathan_Richardson2958@grannar.com,3-021-855-8471,Male,1/13/2021,Reno,159.749181669554
+804,Hayden Connor,361.78664465099,Public university,4/2/2022,Hayden Connor,Hayden Connor,Hayden_Connor3078@dionrab.com,4-810-643-4006,Male,1/6/2022,San Antonio,144.437582041341
+805,Ryan Poulton,-80.3148597280098,High school,3/15/2022,Ryan Poulton,Ryan Poulton,Ryan_Poulton6429@nimogy.biz,1-175-524-0023,Male,9/12/2020,Murfreesboro,103.529327901792
+806,Cara Vinton,-84.4957708993441,Graduate school,4/13/2022,Cara Vinton,Cara Vinton,Cara_Vinton9555@bretoux.com,1-334-205-7826,Female,4/3/2022,San Diego,88.3987267112353
+807,Renee Whinter,169.533475025805,Gymnasium,3/9/2022,Renee Whinter,Renee Whinter,Renee_Whinter7633@gembat.biz,4-181-275-0776,Female,1/4/2022,Escondido,165.084077459334
+808,Erick Duvall,463.746873510418,Graduate school,4/16/2022,Erick Duvall,Erick Duvall,Erick_Duvall7910@bretoux.com,0-111-180-1884,Male,7/10/2020,Salt Lake City,196.12313216977
+809,Camila Atkinson,412.391990047596,University-preparatory school,3/11/2022,Camila Atkinson,Camila Atkinson,Camila_Atkinson461@bungar.biz,8-055-462-6026,Female,2/19/2022,El Paso,30.3517510692364
+810,Esmeralda Adams,374.805727815165,University-preparatory school,3/14/2022,Esmeralda Adams,Esmeralda Adams,Esmeralda_Adams7377@twace.org,6-804-442-5772,Female,9/20/2021,Tokyo,191.403954832537
+811,Ron London,101.276135552803,Gymnasium,3/13/2022,Ron London,Ron London,Ron_London9899@corti.com,6-218-277-8254,Male,12/11/2021,Quebec,183.348209842736
+812,Courtney Robinson,122.455713165671,High school,3/28/2022,Courtney Robinson,Courtney Robinson,Courtney_Robinson7788@sveldo.biz,4-734-657-2028,Female,10/19/2021,San Bernardino,2.17468796306042
+813,Fiona Addis,77.7104500158273,Middle school,4/16/2022,Fiona Addis,Fiona Addis,Fiona_Addis890@liret.org,6-440-538-1415,Female,3/6/2021,St. Louis,29.0574014392017
+814,Clint Wright,-96.1168719404921,Technical college,3/29/2022,Clint Wright,Clint Wright,Clint_Wright8783@nickia.com,5-802-620-8088,Male,7/23/2021,Berlin,152.338998180506
+815,Gabriel Myatt,-0.294648753150668,Technical college,3/23/2022,Gabriel Myatt,Gabriel Myatt,Gabriel_Myatt7495@nickia.com,3-540-234-6322,Male,4/16/2020,Escondido,199.732402366927
+816,Rufus Parsons,196.639252681117,Gymnasium,4/9/2022,Rufus Parsons,Rufus Parsons,Rufus_Parsons6571@gompie.com,7-224-015-2330,Male,7/17/2020,Toledo,21.0988793443418
+817,Rufus Flett,488.175619826268,Gymnasium,3/7/2022,Rufus Flett,Rufus Flett,Rufus_Flett1302@typill.biz,4-663-570-3166,Male,12/24/2020,El Paso,66.6645348461645
+818,George Dwyer,99.0580330216596,Technical college,3/17/2022,George Dwyer,George Dwyer,George_Dwyer3339@grannar.com,7-254-243-8386,Male,7/4/2021,Oakland,90.780797463274
+819,Mason Wilcox,443.248830910422,University-preparatory school,3/18/2022,Mason Wilcox,Mason Wilcox,Mason_Wilcox7478@cispeto.com,4-718-068-1743,Male,9/27/2020,Tallahassee,109.719957508948
+820,Percy Vass,131.877514732945,Gymnasium,3/18/2022,Percy Vass,Percy Vass,Percy_Vass8461@cispeto.com,5-542-047-8762,Male,2/8/2021,Orlando,30.638656874019
+821,John Higgs,141.401163858548,Graduate school,3/24/2022,John Higgs,John Higgs,John_Higgs3870@zorer.org,1-006-664-1235,Male,7/1/2021,Columbus,80.7001049573068
+822,Irene Swan,199.244881490359,Public university,3/10/2022,Irene Swan,Irene Swan,Irene_Swan1586@qater.org,2-470-734-7880,Female,2/18/2022,Lancaster,9.51186223491647
+823,George Nielson,192.974149906996,Gymnasium,3/27/2022,George Nielson,George Nielson,George_Nielson6925@womeona.net,5-153-366-3505,Male,2/24/2022,Anaheim,55.4060507828398
+824,Candace Farmer,182.295035459704,Junior college,3/1/2022,Candace Farmer,Candace Farmer,Candace_Farmer6359@zorer.org,2-133-231-3086,Female,7/19/2021,Ontario,194.961026718822
+825,Denny Terry,40.6623069041699,Technical college,4/1/2022,Denny Terry,Denny Terry,Denny_Terry8628@irrepsy.com,0-813-544-6238,Male,4/24/2021,San Francisco,0.441494987551819
+826,Wade Jarvis,191.519944004025,Middle school,4/17/2022,Wade Jarvis,Wade Jarvis,Wade_Jarvis734@famism.biz,0-145-045-5052,Male,10/10/2021,Oklahoma City,94.8070640567723
+827,Kendra Tutton,-64.7540846619541,High school,3/22/2022,Kendra Tutton,Kendra Tutton,Kendra_Tutton7106@brety.org,0-137-104-0364,Female,9/22/2020,Ontario,80.2589559584199
+828,Mark Casey,-3.07555295204537,Middle school,3/6/2022,Mark Casey,Mark Casey,Mark_Casey7990@elnee.tech,8-371-535-5503,Male,7/14/2020,St. Louis,5.69923484544234
+829,Jenna Thornton,164.433788225257,Junior college,4/18/2022,Jenna Thornton,Jenna Thornton,Jenna_Thornton8360@grannar.com,4-534-036-0347,Female,10/14/2020,Jersey City,112.294536920867
+830,Isabella Eyres,32.6995217682326,University college,4/15/2022,Isabella Eyres,Isabella Eyres,Isabella_Eyres9510@typill.biz,4-748-771-4350,Female,5/16/2020,Omaha,177.972800543985
+831,Ethan Bell,454.672739909344,University college,3/18/2022,Ethan Bell,Ethan Bell,Ethan_Bell9758@sheye.org,4-363-678-4200,Male,11/30/2020,Glendale,172.740356730176
+832,Tyler Hunter,359.638613438065,High school,4/14/2022,Tyler Hunter,Tyler Hunter,Tyler_Hunter1502@gmail.com,3-475-834-8353,Male,7/19/2020,Portland,4.19799717152398
+833,Doug Stewart,-19.2785730665916,Corporate university,4/1/2022,Doug Stewart,Doug Stewart,Doug_Stewart198@mafthy.com,0-055-342-5737,Male,8/27/2020,Murfreesboro,162.300042046839
+834,Brad Squire,106.409401916158,Public university,3/17/2022,Brad Squire,Brad Squire,Brad_Squire2830@zorer.org,0-302-644-4044,Male,3/11/2021,Milwaukee,197.017649170485
+835,Sienna Robinson,-65.6653450809723,High school,4/5/2022,Sienna Robinson,Sienna Robinson,Sienna_Robinson4246@gompie.com,2-446-013-1102,Female,2/13/2021,Washington,11.3930269500208
+836,Samantha Emmott,339.053327829136,Technical college,3/15/2022,Samantha Emmott,Samantha Emmott,Samantha_Emmott2346@extex.org,4-581-782-8767,Female,5/11/2021,Tulsa,168.84741015213
+837,Tyson Bristow,121.855618680294,Public university,4/8/2022,Tyson Bristow,Tyson Bristow,Tyson_Bristow4379@naiker.biz,2-807-445-0801,Male,1/13/2021,Tulsa,26.6635734390763
+838,Julian Coleman,84.5585487836779,High school,3/15/2022,Julian Coleman,Julian Coleman,Julian_Coleman5457@dionrab.com,2-374-845-7187,Male,2/14/2022,Huntsville,118.60393125592
+839,Ally Richardson,61.06457310918,Middle school,3/30/2022,Ally Richardson,Ally Richardson,Ally_Richardson3620@kideod.biz,8-387-243-3683,Female,9/30/2020,Arlington,140.307254649842
+840,Angelica Edmonds,299.006965525917,Junior college,3/4/2022,Angelica Edmonds,Angelica Edmonds,Angelica_Edmonds482@gompie.com,4-747-583-7441,Female,4/3/2022,Richmond,-7.80065713394464
+841,Denny Wilkinson,12.9092284286903,Technical college,4/4/2022,Denny Wilkinson,Denny Wilkinson,Denny_Wilkinson6841@fuliss.net,0-527-660-5378,Male,7/19/2021,Nashville,125.053116854305
+842,Chadwick Harrison,405.226847158385,Technical college,3/31/2022,Chadwick Harrison,Chadwick Harrison,Chadwick_Harrison426@bauros.biz,5-741-257-7203,Male,1/1/2021,San Diego,192.009597395086
+843,Gabriel Lyon,-88.350441736798,Corporate university,4/8/2022,Gabriel Lyon,Gabriel Lyon,Gabriel_Lyon2161@brety.org,6-302-001-2037,Male,6/7/2021,Santa Ana,85.065808493209
+844,Jacob Jones,152.729005439081,University-preparatory school,4/8/2022,Jacob Jones,Jacob Jones,Jacob_Jones5633@iatim.tech,7-036-321-0436,Male,8/14/2020,Cincinnati,78.3094295185569
+845,Mike Cooper,28.3481406855155,Corporate university,4/16/2022,Mike Cooper,Mike Cooper,Mike_Cooper2286@qater.org,6-478-611-0153,Male,7/14/2021,Milano,23.3369859491181
+846,Lindsay Johnson,55.8359105860982,High school,4/10/2022,Lindsay Johnson,Lindsay Johnson,Lindsay_Johnson9291@ubusive.com,7-140-432-5243,Female,8/1/2021,Oakland,185.716034033669
+847,Owen Jefferson,-55.0762580079382,Technical college,3/11/2022,Owen Jefferson,Owen Jefferson,Owen_Jefferson2009@jiman.org,4-224-305-3725,Male,7/4/2021,San Jose,72.2335196976706
+848,Ramon Collingwood,-63.3175644317258,Gymnasium,3/7/2022,Ramon Collingwood,Ramon Collingwood,Ramon_Collingwood3864@yahoo.com,5-027-728-8405,Male,7/18/2021,Springfield,76.5980299443929
+849,Rocco Vane,435.272381424099,Corporate university,3/10/2022,Rocco Vane,Rocco Vane,Rocco_Vane4843@sveldo.biz,0-418-035-2243,Male,9/15/2020,Dallas,19.6827544819949
+850,David Notman,381.217755359699,Corporate university,3/7/2022,David Notman,David Notman,David_Notman6888@supunk.biz,6-084-330-6171,Male,7/9/2020,Glendale,183.773417990084
+851,Luke Morgan,78.9988901247265,Graduate school,4/3/2022,Luke Morgan,Luke Morgan,Luke_Morgan3274@mafthy.com,5-506-628-4853,Male,1/24/2021,San Antonio,182.464274137497
+852,Carl Doherty,313.981206793329,Middle school,4/4/2022,Carl Doherty,Carl Doherty,Carl_Doherty4555@ovock.tech,6-715-606-2383,Male,1/30/2021,Fayetteville,192.015148793354
+853,Laila Vaughan,-4.54414509867511,University college,4/14/2022,Laila Vaughan,Laila Vaughan,Laila_Vaughan2621@typill.biz,7-455-612-5506,Female,10/20/2020,Bucharest,15.812488486903
+854,Ethan Greenwood,68.754829729793,Junior college,4/1/2022,Ethan Greenwood,Ethan Greenwood,Ethan_Greenwood9997@tonsy.org,1-104-262-2662,Male,6/12/2020,Reno,113.620354708107
+855,Luke Craig,112.637056885118,Junior college,3/13/2022,Luke Craig,Luke Craig,Luke_Craig4484@joiniaa.com,7-584-711-7467,Male,7/27/2020,Innsbruck,162.749279208365
+856,Anais Eagle,451.770947477208,Public university,4/9/2022,Anais Eagle,Anais Eagle,Anais_Eagle8590@bungar.biz,1-234-710-5646,Female,1/30/2021,Houston,193.071852843311
+857,Carrie Judd,148.084415785542,University college,4/3/2022,Carrie Judd,Carrie Judd,Carrie_Judd7318@bulaffy.com,7-566-773-3812,Female,5/11/2021,Albuquerque,181.611396862944
+858,Nate Dallas,22.3634921123104,High school,4/11/2022,Nate Dallas,Nate Dallas,Nate_Dallas888@vetan.org,4-857-357-2335,Male,3/20/2021,Milano,98.1613908652968
+859,Caleb Dillon,-71.4396893547101,Gymnasium,3/23/2022,Caleb Dillon,Caleb Dillon,Caleb_Dillon5542@gompie.com,2-756-086-6736,Male,11/30/2020,Lincoln,82.9683505822757
+860,Nicholas Roberts,11.092788199006,Public university,4/15/2022,Nicholas Roberts,Nicholas Roberts,Nicholas_Roberts2839@guentu.biz,2-772-185-2867,Male,4/28/2021,Colorado Springs,16.7303873182882
+861,Vera Brett,372.252984422842,Junior college,4/4/2022,Vera Brett,Vera Brett,Vera_Brett9282@typill.biz,6-543-344-5741,Female,4/2/2020,Innsbruck,161.206589445102
+862,Mike Graves,470.37888207863,Middle school,3/3/2022,Mike Graves,Mike Graves,Mike_Graves4411@zorer.org,1-881-603-7124,Male,12/31/2021,Jacksonville,110.041513869558
+863,Kirsten Walker,309.023506763868,University-preparatory school,3/31/2022,Kirsten Walker,Kirsten Walker,Kirsten_Walker40@joiniaa.com,0-350-003-8578,Female,2/23/2022,Lincoln,28.2572127144119
+864,Chris Ellison,24.9906456703277,Middle school,3/15/2022,Chris Ellison,Chris Ellison,Chris_Ellison9188@atink.com,4-183-422-8635,Male,2/2/2021,Moreno Valley,22.5174291182856
+865,Rhea Lewis,41.9151849327214,University college,3/9/2022,Rhea Lewis,Rhea Lewis,Rhea_Lewis1212@brety.org,7-664-707-7772,Female,1/4/2021,Bakersfield,46.5504892736443
+866,Peter Uttridge,415.075001322234,Graduate school,4/16/2022,Peter Uttridge,Peter Uttridge,Peter_Uttridge6333@gmail.com,1-557-663-0673,Male,10/16/2020,Fayetteville,114.375636256475
+867,Rose Eagle,464.264022957657,Middle school,4/11/2022,Rose Eagle,Rose Eagle,Rose_Eagle119@sveldo.biz,3-130-860-3061,Female,11/13/2020,Jersey City,158.077055318783
+868,Doris Mcgee,-31.2373873285192,Gymnasium,4/3/2022,Doris Mcgee,Doris Mcgee,Doris_Mcgee1466@eirey.tech,1-668-476-6102,Female,11/27/2021,Denver,39.2557099132127
+869,Johnny Ring,-52.0664529577207,University-preparatory school,3/5/2022,Johnny Ring,Johnny Ring,Johnny_Ring3238@acrit.org,4-840-041-4641,Male,1/16/2022,San Francisco,109.035948070714
+870,Luke Ross,381.93342649142,Graduate school,4/1/2022,Luke Ross,Luke Ross,Luke_Ross1903@iatim.tech,3-766-333-2086,Male,12/19/2021,Quebec,157.79533961918
+871,Michael Martin,-52.0637167310639,Corporate university,3/6/2022,Michael Martin,Michael Martin,Michael_Martin6917@brety.org,1-576-011-2882,Male,11/7/2020,Prague,81.4496816990197
+872,Carla Mcneill,433.089940705379,Junior college,4/6/2022,Carla Mcneill,Carla Mcneill,Carla_Mcneill8379@muall.tech,8-315-884-7074,Female,11/15/2020,Arlington,158.143097090136
+873,Anabel Mackenzie,414.074832591263,Technical college,4/2/2022,Anabel Mackenzie,Anabel Mackenzie,Anabel_Mackenzie4050@ubusive.com,8-033-400-1825,Female,4/8/2020,Santa Ana,192.960610344988
+874,Tyler Silva,-61.631722698748,Gymnasium,3/28/2022,Tyler Silva,Tyler Silva,Tyler_Silva1878@fuliss.net,3-545-688-6615,Male,4/19/2021,Fullerton,170.083075088022
+875,Martha Gibson,442.274855714885,High school,3/3/2022,Martha Gibson,Martha Gibson,Martha_Gibson9434@fuliss.net,7-721-744-8571,Female,11/5/2020,Cincinnati,67.7112439245504
+876,Macy Patel,17.516659842579,Public university,4/5/2022,Macy Patel,Macy Patel,Macy_Patel9796@womeona.net,7-617-323-6347,Female,7/27/2020,Honolulu,150.492365760958
+877,Regina Little,360.83169141078,University college,3/30/2022,Regina Little,Regina Little,Regina_Little2867@nimogy.biz,2-523-405-6225,Female,9/23/2021,Salem,179.110618243511
+878,Makenzie Bennett,336.487181285623,Technical college,4/18/2022,Makenzie Bennett,Makenzie Bennett,Makenzie_Bennett5426@twipet.com,6-065-777-5420,Female,3/26/2022,Rome,181.57117834155
+879,Leroy Adams,471.624526003201,Public university,4/15/2022,Leroy Adams,Leroy Adams,Leroy_Adams7346@elnee.tech,8-688-286-8132,Male,4/18/2020,Tokyo,135.949265661626
+880,Megan Morris,-75.9718525549266,High school,3/5/2022,Megan Morris,Megan Morris,Megan_Morris509@yahoo.com,1-771-484-4078,Female,7/30/2020,Sacramento,8.16008991476153
+881,Chester Nash,442.188565788878,High school,4/4/2022,Chester Nash,Chester Nash,Chester_Nash8065@nanoff.biz,0-121-717-4741,Male,4/15/2022,Milwaukee,66.1689500003909
+882,Jack Roscoe,72.8785025793493,Technical college,4/12/2022,Jack Roscoe,Jack Roscoe,Jack_Roscoe9984@ubusive.com,2-258-277-4775,Male,9/29/2020,Huntsville,-7.18024979819555
+883,Rocco Power,92.74360374815,Graduate school,4/11/2022,Rocco Power,Rocco Power,Rocco_Power4401@elnee.tech,6-717-532-4017,Male,7/20/2021,Lakewood,176.966907952431
+884,Chadwick Jarrett,-65.4849780702428,Junior college,4/17/2022,Chadwick Jarrett,Chadwick Jarrett,Chadwick_Jarrett4314@ubusive.com,5-337-501-1554,Male,11/10/2021,Lakewood,188.795673446169
+885,Ilona Williams,305.075721737033,Corporate university,4/5/2022,Ilona Williams,Ilona Williams,Ilona_Williams4222@nickia.com,0-571-010-7866,Female,7/18/2020,Oklahoma City,110.277943800799
+886,Cadence Townend,425.688116113044,University college,4/3/2022,Cadence Townend,Cadence Townend,Cadence_Townend3862@mafthy.com,4-183-187-5471,Female,1/5/2022,Salem,127.460969350515
+887,Marie Henderson,130.990182738747,University-preparatory school,4/5/2022,Marie Henderson,Marie Henderson,Marie_Henderson8842@famism.biz,8-502-213-8268,Female,9/12/2020,Baltimore,0.144209356114366
+888,Karla Brown,37.5863004133973,Middle school,4/7/2022,Karla Brown,Karla Brown,Karla_Brown8461@gembat.biz,2-562-165-2276,Female,2/17/2021,Orlando,121.702166848677
+889,Bob Eagle,363.699811896635,Technical college,3/19/2022,Bob Eagle,Bob Eagle,Bob_Eagle2531@elnee.tech,4-445-242-5216,Male,11/14/2020,Atlanta,129.601595857461
+890,Denny Whinter,211.663164453424,Public university,4/9/2022,Denny Whinter,Denny Whinter,Denny_Whinter2456@gompie.com,7-032-684-2610,Male,8/2/2020,Lincoln,57.5747785058686
+891,Taylor Lane,361.071600762229,University college,4/15/2022,Taylor Lane,Taylor Lane,Taylor_Lane3844@vetan.org,7-057-683-4803,Female,11/16/2020,Detroit,138.340097030317
+892,Tara Page ,36.163533925155,Gymnasium,3/15/2022,Tara Page ,Tara Page ,Tara_Page 414@infotech44.tech,7-252-358-5457,Female,4/18/2022,Cincinnati,59.5777901385807
+893,Erick Glynn,122.239976563137,Technical college,4/8/2022,Erick Glynn,Erick Glynn,Erick_Glynn6227@typill.biz,6-704-561-8780,Male,12/20/2020,Fort Lauderdale,195.842400040404
+894,Leroy Martin,-87.8477583186923,High school,4/16/2022,Leroy Martin,Leroy Martin,Leroy_Martin1436@famism.biz,1-870-784-3653,Male,7/7/2020,Phoenix,189.554142386445
+895,Celia Higgs,-76.4384117826998,Technical college,4/10/2022,Celia Higgs,Celia Higgs,Celia_Higgs4043@elnee.tech,2-577-744-6254,Female,4/8/2022,Valetta,90.9364567175212
+896,Raquel Barrett,411.143532803815,University college,4/12/2022,Raquel Barrett,Raquel Barrett,Raquel_Barrett369@bauros.biz,7-211-128-3411,Female,8/1/2021,Prague,19.9405432762301
+897,John Spencer,351.671750034518,Middle school,4/8/2022,John Spencer,John Spencer,John_Spencer2197@infotech44.tech,6-286-775-2540,Male,3/14/2021,Colorado Springs,17.8242282745541
+898,Nathan Lindsay,220.464474237275,Middle school,3/28/2022,Nathan Lindsay,Nathan Lindsay,Nathan_Lindsay6130@muall.tech,3-214-065-6218,Male,4/16/2022,Stockton,52.5853971566937
+899,David Poulton,305.586250226286,University college,4/4/2022,David Poulton,David Poulton,David_Poulton3097@gompie.com,7-876-120-7414,Male,2/16/2021,Arlington,179.280461998787
+900,Abdul Healy,324.55413871098,Junior college,3/31/2022,Abdul Healy,Abdul Healy,Abdul_Healy3241@famism.biz,4-840-314-1004,Male,10/15/2021,Toledo,196.174020192201
+901,Julius Emmett,457.805719317778,Public university,3/14/2022,Julius Emmett,Julius Emmett,Julius_Emmett6212@acrit.org,4-108-574-3367,Male,12/26/2020,Honolulu,119.372255095454
+902,Amy Allen,-5.63637586293573,Technical college,3/1/2022,Amy Allen,Amy Allen,Amy_Allen8570@famism.biz,5-368-056-8355,Female,2/10/2021,Rome,84.3140593060823
+903,Holly Seymour,-48.4314846472961,Graduate school,4/17/2022,Holly Seymour,Holly Seymour,Holly_Seymour1415@gompie.com,2-461-762-5226,Female,2/21/2022,Orlando,160.434569213742
+904,Allison Neville,176.201109368913,University-preparatory school,3/17/2022,Allison Neville,Allison Neville,Allison_Neville9012@tonsy.org,2-103-266-7727,Female,8/5/2020,Berna,-5.77059215762214
+905,Mason Jennson,456.0919246525,University-preparatory school,3/4/2022,Mason Jennson,Mason Jennson,Mason_Jennson5687@nimogy.biz,5-303-776-0068,Male,4/9/2022,Lyon,62.1707976605607
+906,Logan Ring,272.53771396798,Public university,3/15/2022,Logan Ring,Logan Ring,Logan_Ring2380@yahoo.com,3-242-517-3268,Male,5/13/2021,Miami,127.779371871976
+907,Freya Jackson,443.103423025042,High school,4/8/2022,Freya Jackson,Freya Jackson,Freya_Jackson9139@deavo.com,8-664-243-1110,Female,2/13/2022,San Antonio,77.3541822802993
+908,Johnny Wood,358.67050527114,Public university,3/21/2022,Johnny Wood,Johnny Wood,Johnny_Wood6501@womeona.net,7-300-471-3404,Male,10/21/2020,Indianapolis,19.7108390930625
+909,Candace Seymour,142.385761785035,Technical college,3/1/2022,Candace Seymour,Candace Seymour,Candace_Seymour207@zorer.org,3-461-475-1258,Female,2/27/2021,Nashville,120.423974470433
+910,Eryn Forth,483.664784302779,High school,4/17/2022,Eryn Forth,Eryn Forth,Eryn_Forth7991@nimogy.biz,5-410-151-8068,Female,4/30/2020,Murfreesboro,145.512412893359
+911,Hayden Villiger,-84.513598975499,Junior college,3/26/2022,Hayden Villiger,Hayden Villiger,Hayden_Villiger2323@nanoff.biz,6-383-327-5706,Male,9/10/2020,Jacksonville,82.0091847139453
+912,Joseph Dobson,-54.1861740989546,Junior college,3/22/2022,Joseph Dobson,Joseph Dobson,Joseph_Dobson5969@sheye.org,3-752-004-7660,Male,7/6/2021,Bakersfield,128.595903812254
+913,Rosalee Norburn,-38.5846109211373,High school,3/18/2022,Rosalee Norburn,Rosalee Norburn,Rosalee_Norburn5300@extex.org,0-232-350-5725,Female,1/24/2021,Fremont,24.632768495303
+914,Rachael Dann,119.774968511786,Corporate university,4/7/2022,Rachael Dann,Rachael Dann,Rachael_Dann9421@elnee.tech,8-160-227-5100,Female,4/2/2020,Houston,80.9075872357504
+915,Eduardo Hamilton,450.861726761266,Public university,4/15/2022,Eduardo Hamilton,Eduardo Hamilton,Eduardo_Hamilton4141@womeona.net,8-875-055-8164,Male,6/18/2021,Zurich,120.070651558261
+916,Kendra Stone,160.497939759166,Technical college,3/14/2022,Kendra Stone,Kendra Stone,Kendra_Stone7205@kideod.biz,8-741-716-1014,Female,10/16/2021,Santa Ana,154.562281068676
+917,Logan Mason,487.405651187247,Middle school,3/24/2022,Logan Mason,Logan Mason,Logan_Mason7873@mafthy.com,5-424-508-3154,Female,10/30/2020,Toledo,137.944823747009
+918,Wade Lambert,203.628867531022,Graduate school,4/9/2022,Wade Lambert,Wade Lambert,Wade_Lambert9146@deavo.com,2-247-237-2173,Male,7/26/2021,Los Angeles,21.7902012876189
+919,Denny Hood,323.374466716021,High school,4/16/2022,Denny Hood,Denny Hood,Denny_Hood169@extex.org,0-271-667-6224,Male,9/17/2020,St. Louis,163.114262122714
+920,Harriet Morgan,324.362665349786,University-preparatory school,3/27/2022,Harriet Morgan,Harriet Morgan,Harriet_Morgan7618@nimogy.biz,3-172-171-7883,Female,4/5/2022,Murfreesboro,52.0868749209153
+921,Jennifer Maxwell,296.174527874298,University-preparatory school,3/27/2022,Jennifer Maxwell,Jennifer Maxwell,Jennifer_Maxwell5543@nimogy.biz,3-440-434-2010,Female,2/22/2021,Orlando,38.0704554859877
+922,Rosa Victor,132.35689838806,University college,3/27/2022,Rosa Victor,Rosa Victor,Rosa_Victor3061@ubusive.com,5-328-047-5180,Female,8/23/2020,Jacksonville,82.8088313144673
+923,Benny Hepburn,437.850235344772,Middle school,3/5/2022,Benny Hepburn,Benny Hepburn,Benny_Hepburn6520@nickia.com,5-674-613-8255,Male,8/17/2021,Lincoln,14.3218603373141
+924,Makena Savage,67.7660785437404,University-preparatory school,3/26/2022,Makena Savage,Makena Savage,Makena_Savage2800@corti.com,6-423-237-7034,Female,2/10/2021,Lincoln,192.895963155616
+925,Elisabeth Edley,331.262728006701,Corporate university,3/24/2022,Elisabeth Edley,Elisabeth Edley,Elisabeth_Edley8114@muall.tech,8-818-433-8722,Female,6/21/2021,Colorado Springs,32.2891201182684
+926,Alex Coleman,-3.7533280284858,Public university,4/7/2022,Alex Coleman,Alex Coleman,Alex_Coleman2551@sheye.org,5-164-420-6758,Female,1/31/2022,Minneapolis,99.6251150512254
+927,Hayden Emmett,184.818700538398,Corporate university,4/10/2022,Hayden Emmett,Hayden Emmett,Hayden_Emmett3198@typill.biz,1-546-083-6464,Male,8/28/2021,Escondido,131.6322935315
+928,Gil Jordan,471.908573923124,University college,4/6/2022,Gil Jordan,Gil Jordan,Gil_Jordan4440@gembat.biz,0-477-432-2187,Male,6/22/2021,Bucharest,163.565527778382
+929,Crystal Price,267.750470269355,Public university,4/1/2022,Crystal Price,Crystal Price,Crystal_Price304@bauros.biz,0-043-870-5703,Female,10/28/2021,Oklahoma City,17.9504322805211
+930,Clarissa Burge,420.000826995355,Gymnasium,4/15/2022,Clarissa Burge,Clarissa Burge,Clarissa_Burge8985@gembat.biz,8-116-808-5882,Female,5/13/2021,Orlando,194.289233647887
+931,Candice Addley,-9.08510243011876,Corporate university,3/12/2022,Candice Addley,Candice Addley,Candice_Addley7731@eirey.tech,7-874-254-0244,Female,2/4/2022,Boston,48.0838000402245
+932,Bryce Rogers,416.282324814369,Technical college,3/2/2022,Bryce Rogers,Bryce Rogers,Bryce_Rogers5959@corti.com,5-163-762-3287,Female,4/11/2021,Nashville,89.9133236272788
+933,Rihanna Sheldon,-7.53301231820742,Junior college,3/4/2022,Rihanna Sheldon,Rihanna Sheldon,Rihanna_Sheldon2977@nickia.com,3-507-711-5587,Female,9/1/2021,Lakewood,18.7884967237657
+934,Domenic Calderwood,81.2803843660654,High school,3/1/2022,Domenic Calderwood,Domenic Calderwood,Domenic_Calderwood1736@ubusive.com,2-824-344-4017,Male,1/17/2021,San Diego,158.704445016433
+935,Judith Addley,97.2712141695764,Technical college,3/18/2022,Judith Addley,Judith Addley,Judith_Addley9233@yahoo.com,7-355-733-1825,Female,12/18/2021,Berlin,136.54204862916
+936,Nate Richardson,201.4866603536,Corporate university,4/1/2022,Nate Richardson,Nate Richardson,Nate_Richardson6838@kideod.biz,5-100-777-1016,Male,12/15/2020,Houston,-3.55126753009449
+937,Christine Hope,32.6906817493451,High school,4/15/2022,Christine Hope,Christine Hope,Christine_Hope4468@elnee.tech,0-178-564-5014,Female,5/18/2021,Arlington,26.1475621714013
+938,Eduardo Pearson,395.054124225422,Graduate school,4/15/2022,Eduardo Pearson,Eduardo Pearson,Eduardo_Pearson7211@famism.biz,0-565-542-0623,Male,10/1/2021,Milwaukee,99.7723413187882
+939,George Milner,34.4982377931002,Technical college,3/20/2022,George Milner,George Milner,George_Milner3320@nanoff.biz,6-304-870-6680,Male,2/7/2022,Denver,104.254142103369
+940,Emerald Furnell,436.505357902267,Gymnasium,3/18/2022,Emerald Furnell,Emerald Furnell,Emerald_Furnell6490@muall.tech,4-316-863-7787,Female,12/10/2021,Venice,61.3028050927924
+941,Gil James,474.395174124462,Technical college,3/24/2022,Gil James,Gil James,Gil_James6190@famism.biz,4-035-867-2366,Male,2/8/2021,Lyon,47.0392801044692
+942,Johnathan Lane,481.582861877784,Public university,3/23/2022,Johnathan Lane,Johnathan Lane,Johnathan_Lane1077@bulaffy.com,2-183-047-6500,Male,4/1/2022,Madison,79.417061223377
+943,Brad Andersson,113.356519551182,University college,3/4/2022,Brad Andersson,Brad Andersson,Brad_Andersson9860@muall.tech,6-273-145-0515,Male,7/24/2020,Rochester,9.92400546834059
+944,Abdul Latham,238.638129786885,High school,4/12/2022,Abdul Latham,Abdul Latham,Abdul_Latham7169@acrit.org,1-543-510-6083,Male,1/31/2021,Houston,118.077060935589
+945,Leanne Roman,319.892848985685,University college,4/6/2022,Leanne Roman,Leanne Roman,Leanne_Roman9641@hourpy.biz,0-773-762-3712,Female,1/13/2021,Fullerton,133.657745866877
+946,Carl Rowan,-14.0997853484469,Technical college,4/13/2022,Carl Rowan,Carl Rowan,Carl_Rowan58@gmail.com,3-002-852-1441,Male,1/16/2021,Murfreesboro,83.5959829835202
+947,Nancy Phillips,7.71567501533575,Middle school,4/5/2022,Nancy Phillips,Nancy Phillips,Nancy_Phillips1340@mafthy.com,5-778-720-2464,Female,10/18/2020,Colorado Springs,179.569745454271
+948,Barry Jenkins,377.409566160948,High school,4/13/2022,Barry Jenkins,Barry Jenkins,Barry_Jenkins7297@irrepsy.com,1-384-352-7841,Male,5/8/2021,Jacksonville,98.9713125792198
+949,Irene Hobbs,-48.6343172721725,University-preparatory school,3/1/2022,Irene Hobbs,Irene Hobbs,Irene_Hobbs9635@guentu.biz,0-712-733-1140,Female,6/17/2021,Venice,33.9717026729936
+950,Owen Wilson,271.576847134427,High school,3/15/2022,Owen Wilson,Owen Wilson,Owen_Wilson1602@dionrab.com,8-051-231-6532,Male,5/23/2021,Nashville,46.7606750506725
+951,Greta Saunders,128.259020314673,High school,3/10/2022,Greta Saunders,Greta Saunders,Greta_Saunders7663@twipet.com,7-041-408-8874,Female,9/13/2020,Los Angeles,175.790946357786
+952,Juliet Wilde,322.12248032732,Gymnasium,4/2/2022,Juliet Wilde,Juliet Wilde,Juliet_Wilde7253@gompie.com,2-704-606-2433,Female,7/23/2021,Huntsville,52.1288241954189
+953,Johnathan Graham,208.434077557844,Middle school,3/16/2022,Johnathan Graham,Johnathan Graham,Johnathan_Graham7341@gompie.com,7-121-517-6805,Male,1/3/2022,Fremont,57.4966855377409
+954,Tyler Archer,402.870066397297,Technical college,3/15/2022,Tyler Archer,Tyler Archer,Tyler_Archer7179@elnee.tech,4-674-532-0015,Male,12/24/2021,Venice,52.2575911936618
+955,Jolene Penn,121.518904638253,Gymnasium,3/18/2022,Jolene Penn,Jolene Penn,Jolene_Penn5047@gmail.com,2-251-508-1622,Female,9/12/2020,Los Angeles,27.6388938318188
+956,Carissa Poulton,492.50217572949,Public university,3/18/2022,Carissa Poulton,Carissa Poulton,Carissa_Poulton9974@muall.tech,6-462-720-6581,Female,1/23/2021,Lincoln,15.3603299406172
+957,Nick Davies,385.250704011065,Public university,3/14/2022,Nick Davies,Nick Davies,Nick_Davies7328@acrit.org,7-665-841-8663,Male,9/17/2021,El Paso,24.2093041763684
+958,Shannon Widdows,109.18807000629,Public university,4/4/2022,Shannon Widdows,Shannon Widdows,Shannon_Widdows1318@infotech44.tech,4-752-860-8671,Female,2/28/2022,Arlington,92.6874126436596
+959,Hannah Pickard,186.854441413122,Gymnasium,3/17/2022,Hannah Pickard,Hannah Pickard,Hannah_Pickard9211@ovock.tech,2-567-106-6772,Female,1/7/2021,Henderson,79.6037271179276
+960,Samantha Camden,447.088269563433,University-preparatory school,3/21/2022,Samantha Camden,Samantha Camden,Samantha_Camden2277@irrepsy.com,5-788-811-4057,Female,12/12/2020,Worcester,111.919988866393
+961,Carl Burnley,300.239682524111,Graduate school,4/4/2022,Carl Burnley,Carl Burnley,Carl_Burnley3054@ubusive.com,1-535-643-3188,Male,8/25/2021,Berna,193.308449582806
+962,Mike Lakey,418.3361216827,Gymnasium,3/6/2022,Mike Lakey,Mike Lakey,Mike_Lakey5387@typill.biz,7-625-180-7512,Male,2/9/2021,St. Louis,50.1397616305108
+963,Luke Redden,-38.4562860026286,Technical college,4/8/2022,Luke Redden,Luke Redden,Luke_Redden7726@qater.org,0-611-742-8531,Male,4/16/2022,Fort Lauderdale,176.131369016194
+964,Sebastian Owens,97.3953479018041,Graduate school,3/30/2022,Sebastian Owens,Sebastian Owens,Sebastian_Owens8456@elnee.tech,1-731-020-1483,Male,12/1/2021,Norfolk,109.333609135977
+965,Boris Connell,134.601384456549,Gymnasium,3/18/2022,Boris Connell,Boris Connell,Boris_Connell7518@tonsy.org,4-788-753-8106,Male,1/17/2021,Denver,118.498992929467
+966,Scarlett Russell,439.687468230113,High school,3/24/2022,Scarlett Russell,Scarlett Russell,Scarlett_Russell5414@twipet.com,8-777-672-8445,Female,1/12/2022,Cincinnati,55.8399444026127
+967,Gwenyth Fowler,-78.3633937781506,University-preparatory school,4/14/2022,Gwenyth Fowler,Gwenyth Fowler,Gwenyth_Fowler8690@liret.org,2-576-750-8675,Female,8/1/2020,Dallas,165.480540664625
+968,Josh Locke,468.115214752087,Middle school,4/6/2022,Josh Locke,Josh Locke,Josh_Locke5606@yahoo.com,5-523-402-0353,Male,9/29/2021,Cincinnati,112.871826050278
+969,Lucas Savage,395.348466599988,University-preparatory school,4/3/2022,Lucas Savage,Lucas Savage,Lucas_Savage4221@nimogy.biz,1-078-374-3836,Male,1/7/2021,Saint Paul,69.8793751280193
+970,Enoch Dixon,451.632844999262,Corporate university,4/8/2022,Enoch Dixon,Enoch Dixon,Enoch_Dixon3989@iatim.tech,0-882-084-3012,Male,10/21/2020,Glendale,157.457289202352
+971,Leroy Swift,488.922795326413,Junior college,3/10/2022,Leroy Swift,Leroy Swift,Leroy_Swift8704@vetan.org,4-466-032-5200,Male,10/11/2020,Hollywood,6.32776196735341
+972,Lucy Tate,90.3756302242985,Corporate university,3/1/2022,Lucy Tate,Lucy Tate,Lucy_Tate7140@gmail.com,6-157-348-6041,Female,4/11/2020,Madrid,35.5443763623686
+973,Henry Hope,339.484729473705,Public university,3/12/2022,Henry Hope,Henry Hope,Henry_Hope3610@twipet.com,6-563-666-5003,Male,6/19/2021,Bellevue,98.29019615673
+974,Bryce Curtis,206.301314125909,Graduate school,3/21/2022,Bryce Curtis,Bryce Curtis,Bryce_Curtis1781@fuliss.net,5-624-427-5055,Female,6/27/2020,San Diego,151.929993944676
+975,Nina Rehman,323.49899173784,Graduate school,3/5/2022,Nina Rehman,Nina Rehman,Nina_Rehman6060@fuliss.net,4-806-533-6827,Female,4/9/2020,Anaheim,61.2882694393807
+976,Chuck Eagle,488.619630536819,Corporate university,4/17/2022,Chuck Eagle,Chuck Eagle,Chuck_Eagle9344@zorer.org,3-350-408-3710,Male,1/26/2022,Garland,96.6921137304474
+977,Margaret Jobson,-50.9702012878704,Junior college,4/16/2022,Margaret Jobson,Margaret Jobson,Margaret_Jobson5790@acrit.org,2-034-731-3368,Female,1/27/2021,Stockton,60.2812465789175
+978,Logan Larkin,-1.76636370865924,Graduate school,3/17/2022,Logan Larkin,Logan Larkin,Logan_Larkin5698@extex.org,7-167-848-6211,Male,5/19/2020,Bakersfield,-3.14260613226453
+979,Logan Devonport,-30.2309436990092,University-preparatory school,4/13/2022,Logan Devonport,Logan Devonport,Logan_Devonport7673@bretoux.com,7-761-251-3515,Male,10/29/2020,Oklahoma City,177.664735449322
+980,Abdul Ramsey,35.4078239632807,University-preparatory school,3/6/2022,Abdul Ramsey,Abdul Ramsey,Abdul_Ramsey2588@qater.org,1-472-435-2086,Male,8/31/2020,St. Louis,-0.216679179676193
+981,Megan Savage,54.5477378319706,Middle school,3/28/2022,Megan Savage,Megan Savage,Megan_Savage6358@qater.org,2-324-331-8686,Female,5/21/2021,Chicago,4.2704619370729
+982,Jessica Victor,240.609686200791,Graduate school,3/15/2022,Jessica Victor,Jessica Victor,Jessica_Victor453@ovock.tech,0-313-784-8311,Female,11/17/2021,Orlando,127.540141071444
+983,Harry Hood,466.580763830608,Public university,4/9/2022,Harry Hood,Harry Hood,Harry_Hood1002@fuliss.net,8-685-136-5100,Male,5/17/2021,Tokyo,24.5913459991996
+984,Vera Hogg,31.3615320787586,Middle school,3/23/2022,Vera Hogg,Vera Hogg,Vera_Hogg2280@gmail.com,7-212-378-8260,Female,11/28/2021,Orlando,176.036650581302
+985,Helen Thomson,45.4957127843498,University-preparatory school,3/24/2022,Helen Thomson,Helen Thomson,Helen_Thomson9115@corti.com,5-752-438-7801,Female,7/14/2020,Philadelphia,17.0686355694517
+986,Chadwick Owen,252.431600519191,Graduate school,3/4/2022,Chadwick Owen,Chadwick Owen,Chadwick_Owen2727@cispeto.com,2-323-412-4850,Male,5/20/2021,Lyon,88.075290397776
+987,Janice Wright,407.112995763828,Technical college,3/15/2022,Janice Wright,Janice Wright,Janice_Wright7740@atink.com,0-558-880-4255,Female,4/2/2021,Irving,19.9722593664062
+988,John Gonzales,233.204105999881,Technical college,3/25/2022,John Gonzales,John Gonzales,John_Gonzales9429@gmail.com,0-130-487-1188,Male,6/25/2020,Houston,136.261799091129
+989,Joseph Vaughan,-11.1372651765762,Junior college,3/5/2022,Joseph Vaughan,Joseph Vaughan,Joseph_Vaughan7798@tonsy.org,1-225-703-3078,Male,8/1/2021,Murfreesboro,191.14698619542
+990,Javier Saunders,137.605125855936,Technical college,3/3/2022,Javier Saunders,Javier Saunders,Javier_Saunders6160@kideod.biz,6-377-470-6232,Male,9/6/2021,Scottsdale,52.6459392042113
+991,Luke Russel,151.02177693463,Junior college,4/14/2022,Luke Russel,Luke Russel,Luke_Russel4840@mafthy.com,0-331-374-3532,Male,3/11/2022,Colorado Springs,164.560324245859
+992,Nick Baldwin,362.024698971317,Graduate school,3/1/2022,Nick Baldwin,Nick Baldwin,Nick_Baldwin2390@famism.biz,7-772-625-3507,Male,2/6/2021,Richmond,86.2111299998179
+993,Bristol Pope,197.131082338808,Junior college,4/2/2022,Bristol Pope,Bristol Pope,Bristol_Pope878@ovock.tech,7-233-015-0314,Female,2/7/2022,San Bernardino,179.530027590939
+994,Roger Woodley,131.844046435246,University college,3/16/2022,Roger Woodley,Roger Woodley,Roger_Woodley9178@naiker.biz,0-410-607-4344,Male,8/25/2021,Tulsa,120.31049812553
+995,Daniel Harper,180.872792008274,Graduate school,4/16/2022,Daniel Harper,Daniel Harper,Daniel_Harper4401@iatim.tech,8-434-374-8204,Male,5/28/2020,Salt Lake City,47.729713950646
+996,Chadwick Gallacher,138.88020488428,Middle school,3/5/2022,Chadwick Gallacher,Chadwick Gallacher,Chadwick_Gallacher5089@famism.biz,6-885-222-8706,Male,3/13/2021,Jersey City,158.239968793578
+997,Peter Simpson,76.2606275716147,Public university,3/5/2022,Peter Simpson,Peter Simpson,Peter_Simpson5256@qater.org,0-706-210-2372,Male,6/30/2020,Louisville,106.69300415306
+998,Hayden Styles,-51.427711306339,High school,3/30/2022,Hayden Styles,Hayden Styles,Hayden_Styles8177@fuliss.net,6-215-146-3214,Male,6/28/2021,Columbus,50.1506419559711
+999,Fred Shaw,212.984359270886,Technical college,4/5/2022,Fred Shaw,Fred Shaw,Fred_Shaw4962@gompie.com,0-575-580-5451,Male,11/29/2021,San Jose,136.433167278968
+1000,Celina Flack,341.294298404499,Public university,4/7/2022,Celina Flack,Celina Flack,Celina_Flack157@hourpy.biz,6-654-275-3246,Female,2/21/2021,Sacramento,163.249245955259

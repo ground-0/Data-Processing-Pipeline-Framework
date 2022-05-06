@@ -1,0 +1,35 @@
+<specification xmlns="pipeline">
+  <inputs>
+    <input type="sql">
+      <host>localhost</host>
+      <database>companydb</database>
+      <username>root</username>
+      <password>only4dbms</password>
+      <tables>["employee"]</tables>
+    </input>
+  </inputs>
+  <pipeline>
+    <stage>
+      <operation>
+        <output>temp</output>
+        <input>employee</input>
+        <name>CustomTransform</name>
+        <parameters>{"python_source":"transform","path":"./script"}</parameters>
+      </operation>
+      <stageName>stage one</stageName>
+    </stage>
+  </pipeline>
+  <outputs>
+    <output type="excel">
+      <file>./script/out.xlsx</file>
+      <tables>["employee","temp"]</tables>
+    </output>
+    <output type="sql">
+      <host>localhost</host>
+      <database>companydb</database>
+      <username>root</username>
+      <password>only4dbms</password>
+      <tables>["temp"]</tables>
+    </output>
+  </outputs>
+</specification>

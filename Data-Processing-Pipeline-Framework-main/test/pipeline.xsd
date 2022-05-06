@@ -1,0 +1,145 @@
+<xs:schema 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="pipeline"
+    xmlns="pipeline"
+    elementFormDefault="qualified"
+>
+
+<!-- input data start-->
+
+<xs:group name="sql">
+    <xs:sequence>
+        <xs:element name="host"/>
+        <xs:element name="database" />
+        <xs:element name="username" />
+        <xs:element name="password" />
+        <xs:element name="tables" />
+    </xs:sequence>
+</xs:group>
+
+<xs:group name="excel">
+    <xs:sequence>
+        <xs:element name="path" />
+    </xs:sequence>
+</xs:group>
+
+<xs:complexType name="inputData">
+    <xs:choice >
+        <xs:group ref="excel" />
+        <xs:group ref="sql" />
+    </xs:choice>
+    <xs:attribute name="type" />
+</xs:complexType>
+
+<!-- input data end -->
+
+<!-- input start-->
+
+<xs:complexType name="inputType" mixed="true">
+    <xs:attribute name="type"/>
+</xs:complexType>
+
+<!-- input end -->
+
+
+
+<!-- operation types start -->
+
+<xs:group name="namedOperation">
+    <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element 
+            name="parameters" 
+            minOccurs="0" 
+            maxOccurs="unbounded"
+            type="xs:string"
+        />
+    </xs:sequence>
+</xs:group>
+
+<xs:group name="formulaOperation">
+    <xs:sequence>
+        <xs:element name="formula" type="xs:string"/>
+    </xs:sequence>
+</xs:group>
+
+<!-- operation types end -->
+
+<!-- operation start -->
+
+<xs:complexType name="operationType">
+        
+        <xs:sequence>
+            <xs:element 
+                name="output"
+                minOccurs="1"
+                maxOccurs="unbounded"
+                type="xs:string"
+            />
+            <xs:element 
+                name="input" 
+                type="inputType" 
+                minOccurs="0" 
+                maxOccurs="unbounded"
+            />
+            <xs:choice>
+                <xs:group ref="namedOperation"></xs:group>
+                <xs:group ref="formulaOperation"></xs:group>
+            </xs:choice>
+        </xs:sequence>
+        
+        <xs:attribute name="type"/>
+</xs:complexType>    
+
+<!-- operation end -->
+
+<!-- stage start -->
+
+<xs:complexType name="stageType">
+
+    <xs:sequence>
+        <xs:element 
+            name="operation"
+            type="operationType"
+            minOccurs="1"
+            maxOccurs="unbounded"
+        />
+        <xs:element
+            name="outputName"
+            type="xs:string"
+            minOccurs="0"
+        />
+    </xs:sequence>    
+
+</xs:complexType>
+
+<!-- stage end -->
+
+<!-- pipeline start -->
+
+<xs:complexType name="pipelineType">
+
+    <xs:sequence>
+        <xs:element 
+            name="stage" 
+            type="stageType"
+            maxOccurs="unbounded"
+        />
+    </xs:sequence>
+
+</xs:complexType>
+
+<!-- pipeline end -->
+
+<!-- specification start -->
+<xs:complexType name="specType">
+    <xs:sequence>
+        <xs:element name="input" type="inputData"></xs:element>
+        <xs:element name="pipeline" type="pipelineType"></xs:element>            
+    </xs:sequence>
+</xs:complexType>
+<!-- specification end -->
+
+<xs:element name="specification" type="specType" />
+
+</xs:schema>
